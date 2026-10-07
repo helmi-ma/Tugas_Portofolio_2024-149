@@ -1,36 +1,38 @@
-# Personal Portfolio & Digital Resume
+# Portofolio Digital
 
-Portofolio digital modern yang dirancang dan dibangun murni menggunakan **HTML5** dan **CSS3** tanpa bantuan *framework* CSS seperti Bootstrap atau Tailwind. Proyek ini dibuat untuk memenuhi **Tugas 1 Pemrograman Web (TA 2026/2027)**.
+Portofolio pribadi **Masdar Helmi Faila Syifa**, mahasiswa Teknik Informatika Universitas Muhammadiyah Malang. Situs ini menampilkan profil, riwayat pendidikan, keahlian, dan dokumentasi proyek Website Desa Benjor.
 
-![Responsive Design](https://img.shields.io/badge/Design-Responsive-brightgreen)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+Proyek dibuat sebagai tugas Pemrograman Web menggunakan HTML, CSS, dan JavaScript tanpa framework.
 
----
+## Fitur
 
-## ✨ Fitur Utama
+- **Tema terang dan gelap** — Pengunjung dapat mengganti tema melalui tombol di navigasi. Pilihan tema disimpan di `localStorage` dan tetap digunakan saat situs dibuka kembali.
+- **Desain responsif** — Layout menyesuaikan desktop dan ponsel menggunakan CSS Grid, Flexbox, dan media queries.
+- **Profil dan foto** — Bagian pembuka berisi informasi singkat dan foto profil tanpa latar.
+- **Proyek unggulan** — Dokumentasi dan ringkasan proyek Website Desa Benjor.
+- **Riwayat pendidikan** — Menampilkan pendidikan dari SD hingga perguruan tinggi.
+- **Keahlian dan kontak** — Menampilkan teknologi yang dikuasai serta informasi kontak.
+- **Navigasi halaman** — Tautan menu dan tombol pada bagian pembuka mengarah ke bagian yang sesuai.
 
-- **Pure HTML5 & CSS3**: Dibangun 100% tanpa *framework* eksternal.
-- **Modern Dark Theme**: Tampilan gelap dengan sentuhan *glassmorphism* dan aksen *glow*.
-- **Layout 2 Kolom Interaktif**: *Hero section* dengan perkenalan di sebelah kiri dan foto profil di sebelah kanan.
-- **Responsif**: Menggunakan *CSS Grid* dan *Flexbox* yang menyesuaikan tampilan layar desktop maupun perangkat seluler.
-- **Struktur Semantik**: Menggunakan tag HTML semantik (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) untuk struktur kode yang rapi dan standar SEO.
+## Teknologi
 
----
+- **HTML5** — Struktur dan konten halaman.
+- **CSS3** — Layout responsif, variabel tema, dan styling.
+- **JavaScript** — Interaksi tombol tema dan penyimpanan preferensi tema.
+- **Google Fonts** — Font *Bebas Neue* untuk judul dan *DM Sans* untuk teks.
 
-## 🛠️ Teknologi yang Digunakan
-
-- **HTML5** — Struktur dokumen web
-- **CSS3** — Styling, Grid, Flexbox, Variable, dan Media Queries
-- **Google Fonts** — Font *Plus Jakarta Sans*
-
----
-
-## 📁 Struktur Berkas
+## Struktur Berkas
 
 ```text
+.
 ├── assets/
-│   └── 16. Hilmi - 4x6.JPG   # Foto Profil (4x6)
-├── index.html                # Dokumen Utama HTML
-├── style.css                  # Berkas Gaya CSS
-└── README.md                 # Dokumentasi Repositori
+│   ├── foto_saya.png          # Foto profil dengan latar transparan
+│   └── project_website.png    # Dokumentasi Website Desa Benjor
+├── index.html                 # Struktur dan konten portofolio
+├── style.css                  # Gaya, tema, dan layout responsif
+└── README.md                  # Dokumentasi proyek
+```
+
+## Menjalankan Proyek
+
+Tidak diperlukan instalasi dependensi atau proses build. Buka `index.html` langsung di browser, atau gunakan ekstensi seperti Live Server di Visual Studio Code.
